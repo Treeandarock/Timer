@@ -1,2 +1,2 @@
 # Timer
-A timer with seconds, minutes, and hours listed. 
+A timer with minute and hour convertions listed. 
