@@ -9,9 +9,9 @@ function TimerEnd(){
     let EndTime = Date.now()
     Seconds = EndTime - StartTime
     Seconds = Seconds / 1000
+    Minutes = Seconds / 60
     if (Seconds > 60){
-        Seconds = 0
-        Minutes = Minutes + 1
+        EndTime = 0 
     }
     Hours = Minutes / 60
 
