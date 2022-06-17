@@ -1,7 +1,3 @@
-let StartTime
-let Minutes = 0
-let Hours = 0
-
 function TimerStart(){
     StartTime = Date.now()
     Seconds = EndTime - StartTime

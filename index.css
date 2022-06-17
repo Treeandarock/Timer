@@ -6,3 +6,13 @@ div {
 body {
     background-color: rgb(140, 140, 140);
 }
+
+#Button1 {
+    margin-top: 6px;
+    text-align: center;
+}
+
+#Button2 {
+    margin-top: 6px;
+    text-align: center;
+}
