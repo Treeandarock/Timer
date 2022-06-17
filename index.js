@@ -11,7 +11,7 @@ function TimerStart(){
 }
 
 
-function TimerEnd(){
+function Update(){
     let EndTime = Date.now()
     Seconds = EndTime - StartTime
     Seconds = Seconds / 1000
