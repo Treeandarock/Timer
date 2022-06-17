@@ -1,9 +1,9 @@
 function TimerStart(){
     StartTime = Date.now()
     Seconds = EndTime - StartTime
-    document.getElementById("Seconds").value = (Math.round(Seconds) + " Seconds")
-    document.getElementById("Minutes").value = (Math.round(Minutes) + " Minutes")
-    document.getElementById("Hours").value = (Math.round(Hours) + " Hours")
+    document.getElementById("Seconds").value = (Math.floor(Seconds) + " Seconds")
+    document.getElementById("Minutes").value = (Math.floor(Minutes) + " Minutes")
+    document.getElementById("Hours").value = (Math.floor(Hours) + " Hours")
 }
 
 
@@ -14,13 +14,7 @@ function Update(){
     Minutes = Seconds / 60
     Hours = Minutes / 60
     console.log(Seconds)
-    document.getElementById("Seconds").value = (Math.round(Seconds) + " Seconds")
-    document.getElementById("Minutes").value = (Math.round(Minutes) + " Minutes")
-    document.getElementById("Hours").value = (Math.round(Hours) + " Hours")
-}
-
-while (true){
-    document.getElementById("Seconds").value = (Math.round(Seconds) + " Seconds")
-    document.getElementById("Minutes").value = (Math.round(Minutes) + " Minutes")
-    document.getElementById("Hours").value = (Math.round(Hours) + " Hours")
+    document.getElementById("Seconds").value = (Math.floor(Seconds) + " Seconds")
+    document.getElementById("Minutes").value = (Math.floor(Minutes) + " Minutes")
+    document.getElementById("Hours").value = (Math.floor(Hours) + " Hours")
 }
