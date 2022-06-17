@@ -17,7 +17,6 @@ function TimerEnd(){
     Seconds = Seconds / 1000
     Minutes = Seconds / 60
     Hours = Minutes / 60
-
     console.log(Seconds)
     document.getElementById("Seconds").value = (Math.round(Seconds) + " Seconds")
     document.getElementById("Minutes").value = (Math.round(Minutes) + " Minutes")
